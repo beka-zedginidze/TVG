@@ -266,7 +266,7 @@ a {text-decoration: none;}
     font-size: 20px;
     position: relative;
     bottom: 100px;
-    margin-left: 16.5%;
+    margin-left: 10%;
     -webkit-box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.78); 
     box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.78);
 }
@@ -396,12 +396,14 @@ sup {
 
 .list1 {
     position: relative;
-    right: 50px;
+    left: 10%;
+    width: 25%;
+    margin-left: 30px;
     display: flex;
-    margin-left: 200px;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #808080;
+
 }
 .list1 img {
     width: 80px;
@@ -536,9 +538,11 @@ sup {
         flex-direction: column;
     }
     .list1 {
-        margin-left: 100px;
+        margin-left: 100px; 
         position: relative;
-        left: 20%;
+        left: -10%;
+        width: 30%;
+        
     }
     .channels {
         width: 700px;
@@ -1294,7 +1298,7 @@ sup {
         position: relative;
         left: -5%;
     }
-    
+
     .list1 img {
         width: 120px;
     }
