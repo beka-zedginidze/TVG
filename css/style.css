@@ -8,6 +8,8 @@ a {text-decoration: none;}
     display: flex;
     position: relative;
     z-index: 1;
+    position: sticky;
+    top: 0;
     
 }
 
@@ -225,6 +227,7 @@ a {text-decoration: none;}
     color: #FFFFFF;
 }
 .device-info {
+    width: 100%;
     background-color: #00A859;
     display: flex;
     position: relative;
@@ -506,6 +509,12 @@ sup {
 .arrow {
     width: 50px;
 }
+
+
+
+
+
+
 @media only screen and (max-width: 1100px) {
     .news-cont {
         flex-direction: column;
@@ -526,7 +535,6 @@ sup {
     .packet {
         flex-direction: column;
     }
-
     .list1 {
         margin-left: 100px;
         position: relative;
@@ -843,11 +851,6 @@ sup {
 }
 
 
-
-
-
-
-
 .device-info1 {
     background-color: #00A859;
     display: flex;
@@ -1024,4 +1027,281 @@ sup {
     border-color: #E1E0DC;
     background-color:  #E1E0DC;
     width: 90%;
+}
+.show-channels {
+    color: #FFFFFF;
+    background-color: #00A859;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 85%; 
+}
+.show-channels {
+    display: none;
+}
+.packet-mob {
+    display: none;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 600px){
+    .logo1 {
+        display: none;
+    }
+    .show-channels {
+        display: block;
+    }
+    .packet-mob {
+        display: none;
+    }
+    .header img {
+        position: relative;
+        left: 40%;
+    }
+    .header {
+        height: 150px;
+    }
+    .menu {
+        margin-top: 30px;  
+    }
+    .menu a {
+       font-size: 2.5vw;
+    }
+    .slider-img {
+        height: 200px;
+    }
+    .channels {
+        width: 100%;
+        display: none;
+    }
+    .bottom-footer {
+        display: none;
+    }
+    .info {
+        position: relative;
+       
+    }
+    .tv > :nth-child(2) {
+        width: 200px;
+    }
+    .news-cont {
+        position: relative;
+        right: 100px;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        white-space: nowrap;
+
+    }
+    .news-text {
+        border: 1px solid bla;
+    }
+    .news-text p{
+        width: 100px;
+       
+    }
+    .news  {
+        margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-text img {
+        display: none;
+    }
+
+    .news-text > :nth-child(2) {
+        margin-top: 30px;
+        overflow: hidden;
+        width: 220px;
+        position: relative;
+        left: -40px;
+        word-break: break-all;
+
+    }
+
+    .tvg-iron {
+        position: relative;
+        width: 100%;
+        left: 50px;
+        
+    }
+
+    .top-footer {
+        width: 50%;
+    }
+
+    .arrow {
+        width: 30px;
+        position: relative;
+        right: 10px;
+    }
+    .list-img {
+        width: 50%;
+    }
+
+    .device {
+        display: flex;
+        flex-direction: column;
+    }
+    #text-slide {
+        position: relative;
+        margin-top: 80px;
+        font-size: 12px;
+        width: 180px;
+    }
+    .date {
+        position: relative;
+        top: 0px;
+    }
+    .news {
+        width: 30%;
+    }
+    .tv > :first-child {
+        width: 300px;
+    }
+    #news {
+        margin-top: -80px;
+    }
+    .device-info {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+         
+        margin-top: 30px;
+        height: 300px;   
+    }
+    .device-info img {
+        display: none;
+    }
+    .info {
+        position: relative;
+        top: 300px;
+        border: none;
+        box-shadow: none;
+        left: -100px
+       
+    }
+    .tv {
+        width: 100%;
+    }
+    .channels {
+        margin-top: 400px;
+    }
+    .show-channels {
+        position: relative;
+        top: 475px;
+    }
+    .pay {
+        margin-top: 500px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    
+    }
+    
+    .info1 {
+        position: relative;
+        border: none;
+        box-shadow: none;
+        top: 10px;
+        width: 100%;
+        left: -80px;
+    }
+    .partners {
+        margin-top: 400px;
+    }
+
+    .partners-logo {
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .packet {
+        display: block;
+    }
+    .info-img {
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    
+    .packets {
+        display: none;
+    }
+
+    .packets-mob {
+        padding: 10px 0 0 0;
+
+    }
+
+    .packet-mob {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 400px;
+        text-align: center;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .packets-mob > :first-child {
+        color: #00A859;
+        background-color: #FFFFFF;
+        padding: 40px 20px 30px 20px;
+        margin-left: -50px;
+        position: relative;
+        left: -30%;
+    }
+
+    .packets-mob > :nth-child(2) {
+        font-size: 36px;
+        background-color: #00A859;
+        min-width: 130px;
+        
+        color: white;
+        padding: 10px 40px 10px 40px;
+    }
+
+    .packets-mob span {
+        font-size: 16px;
+    }
+
+    sup {
+        position: relative;
+        bottom: 7px;
+    }
+    .menu-list {
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-list ul {
+        margin: auto;
+        width: 80%;
+    }
+    .devices  {
+        display: none;
+    }
+    .list1 {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        position: relative;
+        left: -5%;
+    }
+    
+    .list1 img {
+        width: 120px;
+    }
+
+    .channels-list {
+        margin-top: 30px;
+        margin-bottom: -400px;
+    }
+
 }

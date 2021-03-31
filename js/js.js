@@ -45,3 +45,14 @@ function ShowAndHide3() {
     i.style.display = 'block';
 }
 }
+
+
+function ShowHideChannels() {
+  let button = document.getElementById('show-hide');
+  if (button.style.display == 'block') {
+    button.style.display = 'none';
+} else {
+  button.style.display = 'block';
+}
+
+}
