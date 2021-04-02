@@ -540,7 +540,7 @@ sup {
     .list1 {
         margin-left: 100px; 
         position: relative;
-        left: -10%;
+        left: -10;
         width: 30%;
         
     }
@@ -1308,4 +1308,65 @@ sup {
         margin-bottom: -400px;
     }
 
+    /* second page */
+    .horiz-type {
+        width: 30%;
+    }
+    .type {
+        position: relative;
+        left: -85px;
+    }
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        margin-top: -200px;
+    }
+    .main-info img {
+        width: 80%;
+    }
+    .about {
+        margin-top: -150px;
+        width: 80%;
+    }
+    .about hr {
+        width: 70%;
+    }
+    .interface {
+        display: flex;
+        flex-direction: column;
+    }
+    .inter {
+        margin-top: 400px;
+        width: 80%;
+    }
+    .interface img {
+        position: relative;
+        top: -400px;
+        width: 80%;
+        left: 13%;
+    }
+
+    .device-info1 {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        margin-bottom: 400px;
+    }
+    .device-info1 img {
+        display: none;
+    }
+    .info3 {
+        margin-left: 0px;
+        border: none;
+        width: 100%;
+        margin-top: 450px;
+    }
+    .mid-channels1 {
+        display: none;
+    }
+    .channels1 {
+        display: none;
+    }
+  
+ 
 }
