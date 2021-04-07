@@ -1367,6 +1367,20 @@ sup {
     .channels1 {
         display: none;
     }
+        /* third page */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            width: 80%;
+            position: relative;
+            left: -10%;
+        }
+        .main-question button {
+            margin-left: 45%;
+        }
+    
   
  
 }
