@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="function-page">
+            <ul>
+                <li><a href="./news.html">სიახლეები</a></li>
+                <li><a href="./channels.html">არხები</a></li>
+                <li><a href="./sliders.html">სლაიდერები</a></li>
+            </ul>
+        </div>
+    <div class="w3-content w3-display-container">
+
+        <img class="mySlides" src="../images/Mask Group 5.png" style="width:100%">
+        <img class="mySlides" src="../images/Group 346.png" style="width:100%">
+        <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+        <img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+        <button onclick="plusDivs(-1)">&#10094;</button>
+        <button  onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+            showDivs(slideIndex);
+
+        function plusDivs(n) {
+             showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+    </div>
+
+</body>
+</html>

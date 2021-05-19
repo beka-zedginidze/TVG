@@ -20,16 +20,19 @@
             </div>
         </div> 
 
-        <div class="slider">
-            <img class="slider-img" src="/images/Mask Group 5.png" alt="slider image">
-            <img class="white" src="./images/Mask Group 7.png" alt="Rectangle">
+        <div class="slider"> 
+            <div class="testing" id="slider-div">
+                <button class="slider-button" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="slider-button" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+    
         </div>
 
         <p id="text-slide">კომპიუტერი და ტელევიზორი ერთ მოწყობილობაში</p>
         <p id="news">სიახლეები</p>
 
-        <div class="news-cont">
-            <div class="news">
+        <div class="news-cont" id="news-id">
+            <!-- <div class="news">
                 <img src="./images/Mask Group 13.png" alt="update">
                 <div class="news-text">
                     <img src="./images/Polygon 4.png" alt="img">
@@ -44,7 +47,7 @@
                     <p>არხების სიას მალე დაემატება National Geographic და Fox</p>
                     <p class="date">18.07.2019</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="tv">
             <p>IP ტელევიზია +</p>
@@ -172,15 +175,15 @@
         <div class="channels" id="show-hide">
             <div class="menu-list">
                 <img class="logo1" src="./images/logo tvg (1).png" alt="logo">
-                <ul>
-                    <li>საბავშვო<span>30 არხი</span></li>
+                <ul id="category-list">
+                    <!-- <li>საბავშვო<span>30 არხი</span></li>
                     <li>ზოგადი<span>30 არხი</span></li>
                     <li>სპორტული<span>30 არხი</span></li>
                     <li>რეგიონული<span>30 არხი</span></li>
                     <li>გასართობი<span>30 არხი</span></li>
                     <li>ფილმები<span>30 არხი</span></li>
                     <li>შემეცნებითი<span>30 არხი</span></li>
-                    <li>18+<span>30 არხი</span></li>
+                    <li>18+<span>30 არხი</span></li> -->
                 </ul>
             </div>
             <div class="mid-channels">
@@ -202,8 +205,8 @@
                         <li><img src="./images/Group 413.png" alt="store">Android TV/Box</li>
                     </ul>
                 </div>
-                <div class="channels-list">
-                    <div class="list1">
+                <div class="channels-list" id="test">
+                    <!-- <div class="list1">
                         <img src="./images/Mask Group 4.png" alt="channel">
                         <div class="channel-name">
                             <p>ენკი ბენკი</p>
@@ -265,7 +268,7 @@
                             <p>ენკი ბენკი</p>
                             <p>lorem ipsum</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -347,5 +350,6 @@
         </div>
     </div>
     <script src="./js/js.js"></script>
+    <script src="./channels.json"></script>
 </body>
 </html>

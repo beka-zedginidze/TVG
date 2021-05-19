@@ -2,7 +2,6 @@
 li {list-style-type: none;}
 a {text-decoration: none;}
 
-
 .header {
     background-color: #202020; 
     display: flex;
@@ -65,8 +64,24 @@ a {text-decoration: none;}
 
 .slider-img {
     width: 100%;
+    height: 300px;
+}
+.testing {
+    width: 100%;
+   
 }
 
+.slider-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: none;
+    position: relative;
+    left: 80%;
+    bottom: 100px;
+    margin-left: 50px;
+}
 #text-slide {
     position: relative;
     width: 300px;
@@ -88,6 +103,7 @@ a {text-decoration: none;}
 }
 
 .news-text:nth-child(2) {
+    margin-top: 50px;
     width: 200px;
     font-size: 14px;
     word-wrap: wrap;
@@ -110,6 +126,10 @@ a {text-decoration: none;}
     margin-left: 5%;
     left: 5%;
     position: relative;
+}
+.news img {
+    width: 200px;
+    height: 300px;
 }
 
 #news {
@@ -545,8 +565,7 @@ sup {
         
     }
     .channels {
-        width: 700px;
-
+        width: 890px;
     }
 
     .packet1 {
@@ -558,7 +577,7 @@ sup {
         left: 10%;
     }
     .channels1 {
-        min-width: 700px;
+        min-width: 900px;
     }
 
 } 
@@ -833,6 +852,10 @@ sup {
     flex-wrap: wrap;
     position: relative;
     top: 40px;  
+}
+
+.channels-list1 p {
+    color: white;
 }
 
 .list2 {
@@ -1117,8 +1140,14 @@ sup {
     .news-text img {
         display: none;
     }
+    .slider-button {
+        position: relative;
+        left: 40%;
+        width: 35px;
+        height: 35px;
+    }
 
-    .news-text > :nth-child(2) {
+    .news-text > :nth-child(1) {
         margin-top: 30px;
         overflow: hidden;
         width: 220px;
@@ -1383,4 +1412,30 @@ sup {
     
   
  
+}
+
+
+
+
+/* admin page */
+
+.function-page {
+    background-color: #373435;
+    height: 80px;
+ 
+}
+
+.function-page ul {
+    display: flex;
+    position: relative;
+    top: 30%;
+    margin-left: 100px;
+}
+
+.function-page li {
+    margin-left: 30px;
+}
+
+.function-page a {
+    color: #FFFFFF;
 }
