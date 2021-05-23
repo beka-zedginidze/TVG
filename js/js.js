@@ -308,3 +308,59 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+
+
+// let sliders1 = `[
+//   {
+//     "imgUrl":  "https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg",
+//     "url": "https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg"
+//   },
+//   {
+//     "imgUrl":  "https://i.pinimg.com/originals/8b/a0/0b/8ba00b446143d3649cdc081e4c18cc75.jpg",
+//     "url": "https://i.pinimg.com/originals/8b/a0/0b/8ba00b446143d3649cdc081e4c18cc75.jpg"
+//   },
+//   {
+//     "imgUrl":  "https://i.pinimg.com/originals/c8/70/ba/c870ba5b574621cf14d656689057d8b4.jpg",
+//     "url": "https://i.pinimg.com/originals/c8/70/ba/c870ba5b574621cf14d656689057d8b4.jpg"
+//   }
+// ]`
+
+// let sliders_data1 = JSON.parse(sliders1);
+
+
+// for(let i = 0; i < sliders_data1.length; i++) {
+
+//   let slider_img1 = document.createElement("img");
+//   slider_img1.src = sliders_data1[i].imgUrl;
+//   slider_img1.setAttribute("class", "slider-img1");
+
+//   let slider_div1 = document.getElementById("slider-div1");
+//   slider_div1.prepend(slider_img1);
+// }
+
+
+
+// // slider 
+// var slideIndex1 = 1;
+// showDivs1(slideIndex1);
+
+// function plusDivs1(n) {
+//   showDivs1(slideIndex1 += n);
+// }
+
+// function showDivs1(n) {
+//   let i;
+//   let x = document.getElementsByClassName("slider-img1");
+//   if (n > x.length){
+//       slideIndex1 = 1
+//   }
+//   if (n < 1) {
+//        slideIndex1 = x.length
+//   }
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";  
+//   }
+//   x[slideIndex1-1].style.display = "block";  
+// }
+
