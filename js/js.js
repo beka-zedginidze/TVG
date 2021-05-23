@@ -128,6 +128,48 @@ let channels = `[
       "imageUrl": "https://www.televizia.org/img/tv_gpb.png",
       "category": "child"
 
+    },
+    {
+      "name": "pirveli",
+      "description": "lorem ipsum",
+      "imageUrl": "https://www.televizia.org/img/tv_gpb.png",
+      "category": "child"
+
+    },
+    {
+      "name": "pirveli",
+      "description": "lorem ipsum",
+      "imageUrl": "https://www.televizia.org/img/tv_gpb.png",
+      "category": "child"
+
+    },
+    {
+      "name": "pirveli",
+      "description": "lorem ipsum",
+      "imageUrl": "https://www.televizia.org/img/tv_gpb.png",
+      "category": "child"
+
+    },
+    {
+      "name": "pirveli",
+      "description": "lorem ipsum",
+      "imageUrl": "https://www.televizia.org/img/tv_gpb.png",
+      "category": "child"
+
+    },
+    {
+      "name": "pirveli",
+      "description": "lorem ipsum",
+      "imageUrl": "https://www.televizia.org/img/tv_gpb.png",
+      "category": "child"
+
+    },
+    {
+      "name": "pirveli",
+      "description": "lorem ipsum",
+      "imageUrl": "https://www.televizia.org/img/tv_gpb.png",
+      "category": "child"
+
     }
 ]`
 
