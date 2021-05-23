@@ -378,7 +378,7 @@ a {text-decoration: none;}
     position: relative;
     bottom: 220px;
     cursor: pointer;
-    left:220px;
+    left:20%;
     font-size: 40px;
     
 }
@@ -454,11 +454,12 @@ sup {
 
 .list1 {
     position: relative;
+    top: 50px;
     left: 10%;
     width: 25%;
     margin-left: 30px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     padding-bottom: 10px;
     border-bottom: 1px solid #808080;
 
@@ -515,12 +516,18 @@ sup {
     text-align: center;
 }
 .partners-logo img {
-    width: 10%;
+    width: 8%;
     margin-top: 100px;
-    margin-left: 3%;
-    border: 1px solid black;
+    margin-left: 2%;
     padding: 40px 10px 40px 10px;
 }
+.arrow-button {
+    background-color: #00A859;
+    border-radius: 50%;
+    border: none;
+    max-width: 100px;
+}
+
 .footer {
     background-color: #373435;
     margin-top: 100px;
@@ -572,9 +579,8 @@ sup {
 }
 
 .arrow {
-    width: 50px;
+    width:30px;
 }
-
 
 
 
@@ -907,7 +913,7 @@ sup {
     right: 50px;
     display: flex;
     margin-left: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding-bottom: 10px;
     border-bottom: 1px solid #808080;
 }
