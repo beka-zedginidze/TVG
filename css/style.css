@@ -223,9 +223,13 @@ a {text-decoration: none;}
     margin-left: 22%;
 }
 .tvg-iron > :nth-child(2) {
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
     margin-left: 22%;
+    margin-top: 10px;
+}
+.tvg-iron li {
+    margin-top: 15px;
 }
 
 .tvg-iron p {
