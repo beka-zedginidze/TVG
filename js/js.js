@@ -256,12 +256,12 @@ let news = `[
   {
     "text": "არხების სიას მალე დაემატება National Geographic და Fox",
     "text1": "18.07.2019",
-    "imgUrl": "https://digichat.info/wp-content/uploads/2021/03/istockphoto-1182477852-612x612-1.jpg"
+    "imgUrl": "https://th.bing.com/th/id/Ra68959a488b334090351b505debb5af7?rik=jA5gAThqvE05LA&pid=ImgRaw"
   },
   {
     "text": "არხების სიას მალე დაემატება National Geographic და Fox",
     "text1": "18.07.2019",
-    "imgUrl": "https://digichat.info/wp-content/uploads/2021/03/istockphoto-1182477852-612x612-1.jpg"
+    "imgUrl": "https://th.bing.com/th/id/Ra68959a488b334090351b505debb5af7?rik=jA5gAThqvE05LA&pid=ImgRaw"
   }
 ]`
 
